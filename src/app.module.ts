@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
-import { UsersModule } from './users/users.module';
-import { EventsModule } from './events/events.module';
-import { AuthModule } from './auth/auth.module';
-import { RsvpModule } from './rsvp/rsvp.module';
+import { UsersModule } from './modules/users/users.module';
+import { EventsModule } from './modules/events/events.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { RsvpModule } from './modules/rsvp/rsvp.module';
 import { typeOrmConfig } from './config/typeorm.config';
 
 @Module({
